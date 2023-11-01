@@ -1,27 +1,88 @@
-/*-------------------
-# General
--------------------*/
-body{
-	margin:0;
-	padding:0;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
 }
 
-p{
-	text-align: right;
-	position: relative;
-	right: 1%;
+body {
+  margin: 0;
+  background-color: #1a466d;
+  font-family: 'Montserrat', sans-serif;
 }
 
-table{
-	width: 100%;
-	background: #0F2027;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	text-align: center;
-	color: white;
+/* Style the header */
+header {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: #FFFFFFE6;
 }
 
-table th, td{
-	width:50%;
-	border: 1px white solid;
+.circulo{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 50%;
+  background: #febb02;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #1a466d, #cba381, #febb02);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #1a466d, #cba381, #febb02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contenedor2{
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+.contenedor2 p{
+  font-size: 18px;
+  color: #FFFFFFB8;
+  margin-top: 0;
+}
+
+.contenedor2 a {
+  font-size: 22px;
+  color: #FFFFFFE6;
+  text-decoration: none;
+}
+
+.contenedor2 a:hover{
+  opacity: 0.8;
+}
+
+header p{
+  font-size: 18px;
+  color: #FFFFFFB8;
+  line-height: 1.6em;
+}
+
+hr{
+  width: 100%;
+  margin:auto;
+  border: none;
+  border-top: 0.1px solid #FFFFFFB8;
+}
+
+/* Container for flexboxes */
+section {
+  width: 70%;
+  margin: auto;
+}
+
+/* Style the footer */
+footer {
+  margin-top: 60px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+footer p{
+  font-size: 14px;
+  color: #FFFFFFB8;
 }

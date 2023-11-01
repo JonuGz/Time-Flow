@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 1</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <p>JONATHAN ULISES GONZALEZ RODRIGUEZ</p>
+    <p>Agenda del Dia</p>
+    <hr>
+    <br>
+    <table id="tabla1">
+    <tr>
+        <th>Hora</th>
+        <th>Actividad</th>
+    </tr>
+    <!--Actividades-->
+    <tr>
+        <td>05:30</td>
+        <td>Despertar</td>
+    </tr>
+    <tr>
+        <td>05:45</td>
+        <td>Caminata</td>
+    </tr>
+    <tr>
+        <td>06:30</td>
+        <td>Coffe Break</td>
+    </tr>
+    
+    </table>
+
+    <br>	
+    <table id="tabla3">
+    <tr>
+        <th>Tate</th>
+    </tr>
+    <tr>
+        <td><br> I want to see how goood life can get<br>Josué 1:9<br><br></td>
+    </tr>
+    </table>
+    <hr>
+</body>
+</html>
+
+/*-------------------
+# General
+-------------------*/
+body{
+	margin:0;
+	padding:0;
+}
+
+p{
+	text-align: right;
+	position: relative;
+	right: 1%;
+}
+
+table{
+	width: 100%;
+	background: #0F2027;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	text-align: center;
+	color: white;
+}
+
+table th, td{
+	width:50%;
+	border: 1px white solid;
+}

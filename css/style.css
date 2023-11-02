@@ -6,63 +6,58 @@
 
 body {
   margin: 0;
-  background-color: #1a466d;
+  background-color: #3b132b;
   font-family: 'Montserrat', sans-serif;
 }
 
 /* Style the header */
 header {
-  width: 60%;
+  width: 70%;
   margin: auto;
-  padding: 20px;
+  padding: 1px;
   text-align: center;
-  font-size: 35px;
   color: #FFFFFFE6;
+  overflow: hidden;
 }
 
 .circulo{
   width: 100px;
   height: 100px;
   margin: auto;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 4%;
   border-radius: 50%;
-  background: #febb02;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #1a466d, #cba381, #febb02);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #1a466d, #cba381, #febb02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ff9818;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #3b132b, #992a1c, #ff9818);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #3b132b, #992a1c, #ff9818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.contenedor2{
-  width: 80%;
+header h2{
   margin: auto;
-  margin-top: 60px;
-  overflow: hidden;
-}
-
-.contenedor2 p{
-  font-size: 18px;
-  color: #FFFFFFB8;
-  margin-top: 0;
-}
-
-.contenedor2 a {
-  font-size: 22px;
-  color: #FFFFFFE6;
-  text-decoration: none;
-}
-
-.contenedor2 a:hover{
-  opacity: 0.8;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  font-size: 210%;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px black;
 }
 
 header p{
+  margin-top: 0;
   font-size: 18px;
   color: #FFFFFFB8;
   line-height: 1.6em;
 }
 
+.contenedor{
+  width: 80%;
+  margin: auto;
+  margin-top: 0;
+  overflow: hidden;
+  letter-spacing: 4px;
+  text-shadow: 0 0 10px black;
+}
+
 hr{
-  width: 100%;
+  width: 48%;
   margin:auto;
   border: none;
   border-top: 0.1px solid #FFFFFFB8;
@@ -70,14 +65,39 @@ hr{
 
 /* Container for flexboxes */
 section {
-  width: 70%;
+  width: 60%;
   margin: auto;
+}
+
+.contenedor2{
+  width: 80%;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  overflow: hidden;
+}
+
+.contenedor2 p{
+  font-size: 18px;
+  color: #FFFFFFB8;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contenedor2 a{
+  font-size: 22px;
+  color: #FFFFFFE6;
+  text-decoration: none;
+}
+
+.contenedor2 a:hover{
+  color: #00FFE0;
+  opacity: 0.8;
 }
 
 /* Style the footer */
 footer {
-  margin-top: 60px;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   color: white;
 }
@@ -85,4 +105,32 @@ footer {
 footer p{
   font-size: 14px;
   color: #FFFFFFB8;
+}
+
+@media (max-width: 231px){
+  .circulo{
+    width: 50px;
+    height: 50px;
+    margin-top: 8%;
+  }
+  header h2{
+    margin-bottom: 4%;
+    margin-top: 4%;
+    font-size: 100%;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px black;
+  }
+  header p{
+    font-size: 8px;
+  }
+  .contenedor2 p{
+    font-size: 8px;
+  }
+  .contenedor2 a{
+    font-size: 12px;
+  }
+  footer p{
+    font-size: 8px;
+    color: #FFFFFFB8;
+  }
 }

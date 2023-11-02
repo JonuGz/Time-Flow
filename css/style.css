@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  background-color: #3b132b;
+  background-color: #080b0f;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -26,9 +26,9 @@ header {
   margin: auto;
   margin-top: 4%;
   border-radius: 50%;
-  background: #ff9818;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #3b132b, #992a1c, #ff9818);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #3b132b, #992a1c, #ff9818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #3c424e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #080b0f, #1e2831, #3c424e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #080b0f, #1e2831, #3c424e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 header h2{
@@ -50,7 +50,7 @@ header p{
 .contenedor{
   width: 80%;
   margin: auto;
-  margin-top: 0;
+  margin-top: 1%;
   overflow: hidden;
   letter-spacing: 4px;
   text-shadow: 0 0 10px black;
@@ -91,7 +91,6 @@ section {
 }
 
 .contenedor2 a:hover{
-  color: #00FFE0;
   opacity: 0.8;
 }
 
@@ -122,6 +121,16 @@ footer p{
   }
   header p{
     font-size: 8px;
+  }
+  hr{
+    width: 72%;
+  }
+  section {
+    width: 90%;
+  }
+  .contenedor2{
+    margin-top: 8%;
+    margin-bottom: 8%;
   }
   .contenedor2 p{
     font-size: 8px;

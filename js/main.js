@@ -2,7 +2,7 @@ function cambiarContenido() {
     var parrafo = document.getElementById("TFM");
     var windowWidth = window.innerWidth;
 
-    if (windowWidth <= 812) {
+    if (windowWidth <= 820) {
         parrafo.textContent = "TFM";
     } else {
         parrafo.textContent = "TimeFlowMaster";

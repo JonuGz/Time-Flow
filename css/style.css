@@ -106,22 +106,7 @@ footer p{
   color: #FFFFFFB8;
 }
 
-@media (max-width: 412px){
-  .circulo{
-    width: 50px;
-    height: 50px;
-    margin-top: 8%;
-  }
-  header h2{
-    margin-bottom: 4%;
-    margin-top: 4%;
-    font-size: 100%;
-    letter-spacing: 8px;
-    text-shadow: 0 0 10px black;
-  }
-  header p{
-    font-size: 8px;
-  }
+@media (max-width: 500px){
   hr{
     width: 72%;
   }
@@ -131,15 +116,5 @@ footer p{
   .contenedor2{
     margin-top: 8%;
     margin-bottom: 8%;
-  }
-  .contenedor2 p{
-    font-size: 8px;
-  }
-  .contenedor2 a{
-    font-size: 12px;
-  }
-  footer p{
-    font-size: 8px;
-    color: #FFFFFFB8;
   }
 }

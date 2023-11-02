@@ -106,7 +106,7 @@ footer p{
   color: #FFFFFFB8;
 }
 
-@media (max-width: 228px){
+@media (max-width: 412px){
   .circulo{
     width: 50px;
     height: 50px;

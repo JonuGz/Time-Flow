@@ -6,11 +6,16 @@
 
 body {
   margin: 0;
-  background-color: #080b0f;
+  background-color: #2287c4;
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Style the header */
+/**
+
+	header
+
+*/
+
 header {
   width: 70%;
   margin: auto;
@@ -26,9 +31,9 @@ header {
   margin: auto;
   margin-top: 4%;
   border-radius: 50%;
-  background: #3c424e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #080b0f, #1e2831, #3c424e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #080b0f, #1e2831, #3c424e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ffd817;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2287c4, #ffc795, #ffd817);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2287c4, #ffc795, #ffd817); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 header h2{
@@ -63,7 +68,12 @@ hr{
   border-top: 0.1px solid #FFFFFFB8;
 }
 
-/* Container for flexboxes */
+/**
+
+	Section
+
+*/
+
 section {
   width: 60%;
   margin: auto;
@@ -94,9 +104,14 @@ section {
   opacity: 0.8;
 }
 
-/* Style the footer */
+/**
+
+	footer
+
+*/
+
 footer {
-  padding: 5px;
+  padding: 20px;
   text-align: center;
   color: white;
 }
@@ -104,6 +119,26 @@ footer {
 footer p{
   font-size: 14px;
   color: #FFFFFFB8;
+}
+
+.footer__me {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.footer__me a{
+  text-decoration: none !important;
+  font-weight: bold;
+  color: #99F9F9;
+}
+
+.footer__me a:hover{
+  opacity: 0.8;
+}
+
+.footer__allrights {
+  font-size: 12px;
+  color: white;
 }
 
 @media (max-width: 500px){

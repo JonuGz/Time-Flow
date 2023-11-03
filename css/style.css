@@ -53,6 +53,9 @@ header p{
 }
 
 .contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 80%;
   margin: auto;
   margin-top: 1%;
